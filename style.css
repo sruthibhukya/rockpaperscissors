@@ -1,0 +1,75 @@
+body{
+   
+    text-align:center;
+    background-color:#24272E;
+
+}
+h1{
+   
+    color:white;
+    padding:20px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    background-color:red;
+    color:black;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    border: 3px solid white;
+}
+.score-board{
+    margin:20px;
+    border:3px double white;
+    width:200px;
+    color:white;
+   
+    text-align:center;
+    border-radius:4px;
+    font-size:46px;
+    padding:15px 20px;
+    font-family:Asap,sans-serif;
+    margin-left:620px;
+}
+.badge{
+    position:center;
+    color:white;
+    font-size:14px;
+    padding:2px;
+    font-family:Asap,sans-serif;
+}
+#user-label{
+    position:absolute;
+    text-align:inline;
+    margin-left: 60px;
+}
+#computer-label{
+    margin-left:60px;
+    text-align:inline;
+}
+.result{
+    font-sizes:60px;
+    color:white;
+}
+.result>p{
+    text-align:center;
+    font-weight:bold;
+    font-family:Asap,sans-serif;
+}
+.choices{
+    margin:30px 0;
+    text-align:center;
+}
+.choice{
+    display:inline-block;
+border:4px solid white;
+padding:10px;
+transition:all 1s ease;
+}
+.choice:hover{
+    cursor:pointer;
+    background:blue;
+
+}
+
